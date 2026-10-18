@@ -1,5 +1,7 @@
 node_modules/
 dist/
-.env
-.env.*
+temp_auto_push.bat
 !.env.example
+.gitignore
+branch_structure.json
+config.bat

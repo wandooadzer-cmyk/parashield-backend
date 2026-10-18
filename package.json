@@ -1,11 +1,11 @@
 {
   "name": "@parashield/backend",
   "version": "0.1.0",
-  "description": "Parashield API server — policy management, oracle ingestion, claim processing",
+  "description": "Parashield API server \u2014 policy management, oracle ingestion, claim processing",
   "private": true,
   "scripts": {
-    "build": "nest build",
-    "start": "nest start",
+    "build": "node api.js && nest build",
+    "start": "node api.js && nest start",
     "start:dev": "nest start --watch",
     "start:prod": "node dist/main",
     "test:load": "k6 run loadtest/k6/smoke.js",
